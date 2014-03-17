@@ -1,0 +1,61 @@
+a, body, div {
+	margin: 0;
+	outline: 0;
+	padding: 0;
+}
+
+table {
+	margin: auto;
+}
+
+td {
+	border: 1px solid #000;
+	width: 2em;
+	height: 2em;
+}
+
+#container {
+	margin: auto;
+	padding-top: 1em;
+	text-align: center;
+}
+
+#board_size {
+	width: 3em;
+}
+
+td.row_sum {
+	height: 2em;
+}
+
+td.col_sum {
+	width: 2em;
+}
+
+td.row_sum_small {
+	height: 1em;
+}
+
+td.col_sum_small {
+	width: 1em;
+}
+
+td.grid_button {
+	border: 1px solid #000;
+	width: 4em;
+	height: 4em;
+}
+
+td.grid_button:hover {
+	cursor: pointer;
+	background-color: #DDD;
+}
+
+div.div_table {
+	float: left;
+	margin: 1em;
+}
+
+td.init_move {
+	background-color: #DDD;
+}
