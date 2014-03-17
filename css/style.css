@@ -34,10 +34,12 @@ td.col_sum {
 
 td.row_sum_small {
 	height: 1em;
+	background-color: #FFFFCC;
 }
 
 td.col_sum_small {
 	width: 1em;
+	background-color: #FFFFCC;
 }
 
 td.grid_button {
